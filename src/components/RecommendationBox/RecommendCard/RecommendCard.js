@@ -10,5 +10,4 @@ const RecommendCard = () => {
     </div>
   )
 }
-
 export default RecommendCard
