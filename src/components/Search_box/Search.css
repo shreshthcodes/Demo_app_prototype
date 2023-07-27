@@ -30,3 +30,6 @@ input:focus {
   font-size: 2rem;
   padding-right: 0.5rem;
 }
+#search-icon:hover{
+  color: blue;
+}

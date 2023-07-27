@@ -1,0 +1,34 @@
+.recommend-container{
+/* margin-top: 10px; */
+/* color: white; */
+background-color: #FFFFFF;
+width: 1025px;
+height:550px;
+border-radius: 3px;
+box-shadow: 8px 0px 8px #cdc2c2;
+}
+#flexy{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ 
+}
+.top{
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#close{
+    padding-top: 27px;
+    padding-right: 20px;
+}
+#close:hover{
+    color: red;
+}
+h3{
+    padding-top: 27px;
+    padding-left: 27px;
+    padding-bottom: 10px;
+}
