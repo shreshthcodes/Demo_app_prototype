@@ -1,0 +1,22 @@
+#prodList{
+    display:grid;
+}
+@media (min-width: 400px) {
+  #prodList{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 600px) {
+  #prodList{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  #prodList{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+    #prodList { grid-template-columns: repeat(4, 1fr); }
+  }

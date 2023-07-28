@@ -7,21 +7,24 @@ import RecommendationContext from './context/RecommendationContext';
 import ShopContext from './context/ShopContext';;
 function App() {
   const [recommendation,setRecommendation] = useState(false)
-  const [shop,setShop] = useState(false)
+  const [shop,setShop] = useState(true)  //on complition turn to false
   const [searchTerm,setSearchTerm]=useState("")
   const handleRecommendation=()=>{
     setRecommendation(true);
   }
   const handleShop=()=>{
     if(searchTerm!=="")
-    setShop(true);
+    { 
+      if(!shop)
+      setShop(true);
+    }
     else
     alert("Enter something in the search box")
   }
   return (<>
   {shop?(
     <ShopContext.Provider  value={[shop,setShop]}>
-    <Shop setSearchTerm={setSearchTerm}/>
+    <Shop shope={handleShop} setSearchTerm={setSearchTerm}/>
     </ShopContext.Provider>
     )
   :
@@ -30,7 +33,7 @@ function App() {
        <img src='./logo.jpg' alt='logo' width="86px" height="45px"/>
      </div>
    <div className="search-bar-container" >
-     <Search recommendation={handleRecommendation} shop={handleShop} setSearchTerm={setSearchTerm}/>
+     <Search recommendation={handleRecommendation} shope={handleShop} setSearchTerm={setSearchTerm}/>
    </div>
      <RecommendationContext.Provider value={[recommendation,setRecommendation]}>
    {
