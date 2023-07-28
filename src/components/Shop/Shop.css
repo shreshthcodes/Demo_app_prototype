@@ -12,7 +12,8 @@
 .search-bar {
   width: 30vw;
   border-radius: 15px;
-  border: 2px solid #eee;
+  /* border: 2px solid #eee; */
+  box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
 }
 #title-bar {
   height: 60px;

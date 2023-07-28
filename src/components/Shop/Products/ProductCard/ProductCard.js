@@ -15,7 +15,7 @@ const ProductCard = ({pic,itemName,price,customerNumber}) => {
         <div id='img'>
           <img id='main' src={pic}  alt="product"></img>
           {wish?(<AiFillHeart onClick={handleUnheart} className='heart red'/>):(<AiOutlineHeart onClick={handleHeart} className='heart'/>)}
-          <div className='view-product'>Veiw Product</div>
+          <div className='view-product'><p id='vp'>Veiw Product</p></div>
         </div>
         <div id='info'>
           <p id='item-name'>{itemName }</p>

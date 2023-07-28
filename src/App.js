@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import logo from './Assets/logo.jpg'
 import Recommend from './components/RecommendationBox/Recommend';
 import Search from './components/Search_box/Search';
 import Shop from './components/Shop/Shop';
@@ -30,7 +31,7 @@ function App() {
   :
   ( <div className="App" >
      <div id='zevi-icon'>
-       <img src='./logo.jpg' alt='logo' width="86px" height="45px"/>
+       <img src={logo} alt='logo' width="86px" height="45px"/>
      </div>
    <div className="search-bar-container" >
      <Search recommendation={handleRecommendation} shope={handleShop} setSearchTerm={setSearchTerm}/>

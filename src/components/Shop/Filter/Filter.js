@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import './Filter.css'
 import {AiFillStar,AiOutlineStar} from 'react-icons/ai'
+import ProductContext from "../../../context/ProductContext";
 const Filter = () => {
+  const [productList,setProductList] = useContext(ProductContext)
   return (
     <div className="filter-container">
       <h2 id="title">Search Results</h2>

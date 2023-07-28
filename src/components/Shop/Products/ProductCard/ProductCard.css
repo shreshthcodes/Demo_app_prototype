@@ -3,12 +3,19 @@
     height: 450px;
     /* width: 15vw; */
     /* margin: 0px 10px; */
+    
 }
 #img{
     position: relative;
     width: 239px;
     height: 325px;
     border: 1px solid grey;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+}
+#img:hover>.view-product{
+position:absolute;
+z-index: 1;
 }
 .heart{
     position: absolute;
@@ -25,12 +32,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: absolute; */
+    position: absolute;
+    font-weight: 500;
+    font-size: 17px;
     z-index: -1;
     top: 278px;
     width: 239px;
     height: 47px;
     background-color: rgba(109, 132, 255, 0.71);
+    cursor: pointer;
+}
+#vp{
+    color: #FFFFFF;
 }
 #item-name{
     font-weight: 400;
