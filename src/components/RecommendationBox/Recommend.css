@@ -3,9 +3,9 @@
 /* color: white; */
 background-color: #FFFFFF;
 width: 1025px;
-height:550px;
+height: 550px;
 border-radius: 3px;
-box-shadow: 8px 0px 8px #cdc2c2;
+box-shadow:0 2px 5px 1px rgba(64, 60, 67, 0.16);
 }
 #flexy{
     margin-top: 10px;

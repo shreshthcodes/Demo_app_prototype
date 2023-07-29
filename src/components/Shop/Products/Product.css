@@ -1,6 +1,11 @@
 #prodList{
     display:grid;
 }
+#no-result{
+  width: 65vw;
+  display: flex;
+  justify-content: center;
+}
 @media (min-width: 400px) {
   #prodList{
     grid-template-columns: repeat(1, 1fr);

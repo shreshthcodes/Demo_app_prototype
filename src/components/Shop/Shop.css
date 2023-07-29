@@ -13,7 +13,7 @@
   width: 30vw;
   border-radius: 15px;
   /* border: 2px solid #eee; */
-  box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
 }
 #title-bar {
   height: 60px;
@@ -33,14 +33,14 @@
   border-radius: 80%;
   background-color: #eee;
 }
-.below{
+.below {
   display: flex;
   margin-top: 50px;
 }
-#filter{
+#filter {
   width: 20vw;
   padding-left: 20px;
 }
-#products{
+#products {
   width: 80vw;
 }
