@@ -19,7 +19,7 @@ const ProductCard = ({ pic, itemName, price, customerNumber }) => {
           <AiOutlineHeart onClick={handleHeart} className="heart" />
         )}
         <div className="view-product">
-          <p id="vp">Veiw Product</p>
+          <p id="vp">View Product</p>
         </div>
       </div>
       <div id="info">

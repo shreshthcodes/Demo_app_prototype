@@ -1,4 +1,4 @@
-//Mock data for the store part of the website
+//Mock data generated for the website
 import { faker } from "@faker-js/faker";
 const brand = ["Mango", "H&M"];
 const data = [];
